@@ -1,0 +1,14 @@
+.page__content {
+  max-width: 2000px;
+  min-width: 320px;
+  margin: auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0 0 0 / 0.2);
+  border: 1px solid;
+}
