@@ -6,6 +6,7 @@
   flex-flow: column;
   max-height: 700px;
   overflow-y: scroll;
+  flex: 1;
 }
 
 .msg {
