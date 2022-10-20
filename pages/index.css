@@ -8,3 +8,27 @@
 @import url(../blocks/heading/heading.css);
 
 @import url(../blocks/app/app.css);
+
+@import url(../blocks/icon/icon.css);
+
+@import url(../blocks/icon-button/icon-button.css);
+@import url(../blocks/search-btn/search-btn.css);
+@import url(../blocks/settings-btn/settings-btn.css);
+@import url(../blocks/menu-btn/menu-btn.css);
+@import url(../blocks/new-msg-btn/new-msg-btn.css);
+@import url(../blocks/phone-btn/phone-btn.css);
+
+@import url(../blocks/user-avatar/user-avatar.css);
+
+@import url(../blocks/side-bar/side-bar.css);
+@import url(../blocks/side-bar/__header/side-bar__header.css);
+@import url(../blocks/side-bar/__user-avatar/side-bar__user-avatar.css);
+
+@import url(../blocks/chats/chats.css);
+@import url(../blocks/chats/__new/chats__new.css);
+@import url(../blocks/chats/__header/chats__header.css);
+
+@import url(../blocks/chat-list/chat-list.css);
+
+@import url(../blocks/chat-card/chat-card.css);
+@import url(../blocks/chat-card/__user-avatar/chat-card__user-avatar.css);

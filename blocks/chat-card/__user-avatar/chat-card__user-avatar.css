@@ -1,0 +1,5 @@
+.chat-card__user-avatar {
+  grid-area: avatar;
+  width: 100%;
+  place-self: start center;
+}

@@ -1,0 +1,89 @@
+.chat-card {
+  display: grid;
+  grid-template:
+    "avatar . title . time time"
+    "avatar . . . . ." 10px
+    "avatar . last . icons icons"
+    / 65px 30px auto 18px max-content;
+  place-items: center start;
+}
+
+.chat-card__list-item {
+  padding: 17px 30px 17px 52px;
+}
+
+.chat-card__list-item:hover {
+  background-color: rgba(67 83 255 / 0.2);
+  cursor: pointer;
+}
+
+.chat-card__list-item_selected {
+  background-color: rgba(67 83 255 / 0.6);
+}
+
+.chat-card__list-item:first-child {
+  padding-top: 0;
+}
+
+.chat-card__list-item:last-child {
+  padding-bottom: 17px;
+}
+
+.chat-card__title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.19;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  grid-area: title;
+  width: 100%;
+  align-self: end;
+}
+
+.chat-card__text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  margin: 0;
+  color: white;
+}
+
+.chat-card__last {
+  grid-area: last;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  align-self: start;
+}
+
+.chat-card__last-name {
+  opacity: 0.6;
+}
+
+.chat-card__last-name_disabled {
+  display: none;
+}
+
+.chat-card__last-msg {
+  opacity: 0.4;
+}
+
+.chat-card__last-time {
+  grid-area: time;
+  place-self: end end;
+}
+
+.chat-card__phone-btn {
+  grid-area: icons;
+  place-self: center end;
+  margin-right: 32px;
+}
+
+.chat-card__facetime-btn {
+  grid-area: icons;
+  place-self: end end;
+}

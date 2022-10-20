@@ -14,7 +14,224 @@
     </div>
     <div class="page__content">
       <div class="app">
-
+        <section class="side-bar">
+          <header class="side-bar__header">
+            <button
+              class="icon-button menu-btn"
+              type="button"
+              aria-label="Menu"
+            ></button>
+            <img
+              src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Gomez-Addams.The-Addams-Family.webp"
+              alt=""
+              class="user-avatar side-bar__user-avatar"
+            />
+            <button class="icon-button search-btn" type="button"></button>
+            <button class="icon-button settings-btn" type="button"></button>
+          </header>
+          <section class="chats">
+            <header class="chats__header">
+              <p class="chats__new">New Message</p>
+              <button
+                class="icon-button new-msg-btn"
+                aria-label="new message"
+              ></button>
+            </header>
+            <ul class="chat-list">
+              <li class="chat-card__list-item">
+                <card class="chat-card">
+                  <img
+                    src="https://i.pinimg.com/originals/98/07/69/98076959d56c98defbe64ab001a64ab1.jpg"
+                    alt=""
+                    class="user-avatar chat-card__user-avatar"
+                  />
+                  <h2 class="chat-card__title">Kurt Cobain</h2>
+                  <p class="chat-card__text chat-card__last">
+                    <span
+                      class="chat-card__last-name chat-card__last-name_disabled"
+                      >Name:</span
+                    >
+                    <span class="chat-card__last-msg"
+                      >Let's doing grange, Bob!</span
+                    >
+                  </p>
+                  <p class="chat-card__text chat-card__last-time">Yesterday</p>
+                  <button
+                    class="icon-button phone-btn chat-card__phone-btn"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                      <path
+                        d="M12.396 10.45c-.87-.871-1.804-1.604-1.804-1.604l-1.359 1.359-5.438-5.438 1.36-1.36S4.42 2.476 3.55 1.605A23.045 23.045 0 0 0 1.747 0S.118 1.498.009 2.686c-.147 1.59 1.537 4.482 4.18 7.125s5.534 4.327 7.125 4.18c1.188-.11 2.686-1.738 2.686-1.738s-.733-.933-1.604-1.803Z"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    class="icon-button facetime-btn chat-card__facetime-btn"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                      <path
+                        d="M14.674.318a.57.57 0 0 0-.21-.043.492.492 0 0 0-.377.163l-3.373 3.455V2.475c0-.682-.236-1.265-.707-1.749A2.292 2.292 0 0 0 8.303 0H2.411C1.747 0 1.179.242.707.726A2.416 2.416 0 0 0 0 2.475v6.05c0 .682.236 1.265.707 1.749.472.484 1.04.726 1.704.726h5.892c.665 0 1.232-.242 1.704-.726a2.416 2.416 0 0 0 .707-1.749V7.098l3.374 3.464c.1.109.226.163.376.163a.57.57 0 0 0 .21-.043.514.514 0 0 0 .326-.507V.825c0-.24-.109-.41-.326-.507Z"
+                      />
+                    </svg>
+                  </button>
+                </card>
+              </li>
+              <li class="chat-card__list-item chat-card__list-item_selected">
+                <card class="chat-card">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb_iryx2IkKgUrVv2HdCragC1u35xJgCcB1w&usqp=CAU"
+                    alt=""
+                    class="user-avatar chat-card__user-avatar"
+                  />
+                  <h2 class="chat-card__title">Bob Marley</h2>
+                  <p class="chat-card__text chat-card__last">
+                    <span class="chat-card__last-name">Kurt Kobain:</span>
+                    <span class="chat-card__last-msg"
+                      >Let's doing grange, Bob!</span
+                    >
+                  </p>
+                  <p class="chat-card__text chat-card__last-time">Today</p>
+                  <button
+                    class="icon-button phone-btn chat-card__phone-btn"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                      <path
+                        d="M12.396 10.45c-.87-.871-1.804-1.604-1.804-1.604l-1.359 1.359-5.438-5.438 1.36-1.36S4.42 2.476 3.55 1.605A23.045 23.045 0 0 0 1.747 0S.118 1.498.009 2.686c-.147 1.59 1.537 4.482 4.18 7.125s5.534 4.327 7.125 4.18c1.188-.11 2.686-1.738 2.686-1.738s-.733-.933-1.604-1.803Z"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    class="icon-button facetime-btn chat-card__facetime-btn"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                      <path
+                        d="M14.674.318a.57.57 0 0 0-.21-.043.492.492 0 0 0-.377.163l-3.373 3.455V2.475c0-.682-.236-1.265-.707-1.749A2.292 2.292 0 0 0 8.303 0H2.411C1.747 0 1.179.242.707.726A2.416 2.416 0 0 0 0 2.475v6.05c0 .682.236 1.265.707 1.749.472.484 1.04.726 1.704.726h5.892c.665 0 1.232-.242 1.704-.726a2.416 2.416 0 0 0 .707-1.749V7.098l3.374 3.464c.1.109.226.163.376.163a.57.57 0 0 0 .21-.043.514.514 0 0 0 .326-.507V.825c0-.24-.109-.41-.326-.507Z"
+                      />
+                    </svg>
+                  </button>
+                </card>
+              </li>
+              <li class="chat-card__list-item">
+                <card class="chat-card">
+                  <img
+                    src="https://i0.wp.com/cms.sofrep.com/wp-content/uploads/2017/01/fred_durst.jpg?fit=600%2C347&ssl=1&w=800"
+                    alt=""
+                    class="user-avatar chat-card__user-avatar"
+                  />
+                  <h2 class="chat-card__title">Fred Dirst</h2>
+                  <p class="chat-card__text chat-card__last">
+                    <span class="chat-card__last-name">Bob Marley:</span>
+                    <span class="chat-card__last-msg"
+                      >Let's doing reggy, Fred!</span
+                    >
+                  </p>
+                  <p class="chat-card__text chat-card__last-time">15:24 AM</p>
+                  <button
+                    class="icon-button phone-btn chat-card__phone-btn"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                      <path
+                        d="M12.396 10.45c-.87-.871-1.804-1.604-1.804-1.604l-1.359 1.359-5.438-5.438 1.36-1.36S4.42 2.476 3.55 1.605A23.045 23.045 0 0 0 1.747 0S.118 1.498.009 2.686c-.147 1.59 1.537 4.482 4.18 7.125s5.534 4.327 7.125 4.18c1.188-.11 2.686-1.738 2.686-1.738s-.733-.933-1.604-1.803Z"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    class="icon-button facetime-btn chat-card__facetime-btn"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                      <path
+                        d="M14.674.318a.57.57 0 0 0-.21-.043.492.492 0 0 0-.377.163l-3.373 3.455V2.475c0-.682-.236-1.265-.707-1.749A2.292 2.292 0 0 0 8.303 0H2.411C1.747 0 1.179.242.707.726A2.416 2.416 0 0 0 0 2.475v6.05c0 .682.236 1.265.707 1.749.472.484 1.04.726 1.704.726h5.892c.665 0 1.232-.242 1.704-.726a2.416 2.416 0 0 0 .707-1.749V7.098l3.374 3.464c.1.109.226.163.376.163a.57.57 0 0 0 .21-.043.514.514 0 0 0 .326-.507V.825c0-.24-.109-.41-.326-.507Z"
+                      />
+                    </svg>
+                  </button>
+                </card>
+              </li>
+              <li class="chat-card__list-item">
+                <card class="chat-card">
+                  <img
+                    src="https://www.theplace.ru/cache/archive/arnold_schwarzenegger/img/3(60)-gthumb-gwdata600-ghdata400-gfitdatamax.jpg"
+                    alt=""
+                    class="user-avatar chat-card__user-avatar"
+                  />
+                  <h2 class="chat-card__title">Arnold Schwarzenegger</h2>
+                  <p class="chat-card__text chat-card__last">
+                    <span
+                      class="chat-card__last-name chat-card__last-name_disabled"
+                      >Bob Marley:</span
+                    >
+                    <span class="chat-card__last-msg"
+                      >I'll go to the gym, guys!</span
+                    >
+                  </p>
+                  <p class="chat-card__text chat-card__last-time">11:59 PM</p>
+                  <button
+                    class="icon-button phone-btn chat-card__phone-btn"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                      <path
+                        d="M12.396 10.45c-.87-.871-1.804-1.604-1.804-1.604l-1.359 1.359-5.438-5.438 1.36-1.36S4.42 2.476 3.55 1.605A23.045 23.045 0 0 0 1.747 0S.118 1.498.009 2.686c-.147 1.59 1.537 4.482 4.18 7.125s5.534 4.327 7.125 4.18c1.188-.11 2.686-1.738 2.686-1.738s-.733-.933-1.604-1.803Z"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    class="icon-button facetime-btn chat-card__facetime-btn"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                      <path
+                        d="M14.674.318a.57.57 0 0 0-.21-.043.492.492 0 0 0-.377.163l-3.373 3.455V2.475c0-.682-.236-1.265-.707-1.749A2.292 2.292 0 0 0 8.303 0H2.411C1.747 0 1.179.242.707.726A2.416 2.416 0 0 0 0 2.475v6.05c0 .682.236 1.265.707 1.749.472.484 1.04.726 1.704.726h5.892c.665 0 1.232-.242 1.704-.726a2.416 2.416 0 0 0 .707-1.749V7.098l3.374 3.464c.1.109.226.163.376.163a.57.57 0 0 0 .21-.043.514.514 0 0 0 .326-.507V.825c0-.24-.109-.41-.326-.507Z"
+                      />
+                    </svg>
+                  </button>
+                </card>
+              </li>
+              <li class="chat-card__list-item">
+                <card class="chat-card">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sylvester_Stallone_Comic-Con_2010.jpg/1200px-Sylvester_Stallone_Comic-Con_2010.jpg"
+                    alt=""
+                    class="user-avatar chat-card__user-avatar"
+                  />
+                  <h2 class="chat-card__title">Silvester Stallone</h2>
+                  <p class="chat-card__text chat-card__last">
+                    <span class="chat-card__last-name">Fred Dirst:</span>
+                    <span class="chat-card__last-msg"
+                      >Do you want in my band, Silver?</span
+                    >
+                  </p>
+                  <p class="chat-card__text chat-card__last-time">17:52 PM</p>
+                  <button
+                    class="icon-button phone-btn chat-card__phone-btn"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                      <path
+                        d="M12.396 10.45c-.87-.871-1.804-1.604-1.804-1.604l-1.359 1.359-5.438-5.438 1.36-1.36S4.42 2.476 3.55 1.605A23.045 23.045 0 0 0 1.747 0S.118 1.498.009 2.686c-.147 1.59 1.537 4.482 4.18 7.125s5.534 4.327 7.125 4.18c1.188-.11 2.686-1.738 2.686-1.738s-.733-.933-1.604-1.803Z"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    class="icon-button facetime-btn chat-card__facetime-btn"
+                    type="button"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon">
+                      <path
+                        d="M14.674.318a.57.57 0 0 0-.21-.043.492.492 0 0 0-.377.163l-3.373 3.455V2.475c0-.682-.236-1.265-.707-1.749A2.292 2.292 0 0 0 8.303 0H2.411C1.747 0 1.179.242.707.726A2.416 2.416 0 0 0 0 2.475v6.05c0 .682.236 1.265.707 1.749.472.484 1.04.726 1.704.726h5.892c.665 0 1.232-.242 1.704-.726a2.416 2.416 0 0 0 .707-1.749V7.098l3.374 3.464c.1.109.226.163.376.163a.57.57 0 0 0 .21-.043.514.514 0 0 0 .326-.507V.825c0-.24-.109-.41-.326-.507Z"
+                      />
+                    </svg>
+                  </button>
+                </card>
+              </li>
+            </ul>
+          </section>
+        </section>
       </div>
     </div>
   </body>
