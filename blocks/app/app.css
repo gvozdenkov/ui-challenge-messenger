@@ -1,0 +1,8 @@
+.app {
+  min-height: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0 0 0 / 0.25);
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+}
