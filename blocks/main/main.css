@@ -1,4 +1,67 @@
 .main {
   background-color: white;
   color: black;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.main__header {
+  min-height: 60px;
+  border-bottom: 1px solid rgba(23, 25, 50, 0.2);
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.chat {
+  flex: 1;
+}
+
+.msg-area {
+  min-height: 80px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(23, 25, 50, 0.2);
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.msg-area__input {
+  width: 60%;
+  height: 100%;
+  border: 0;
+  outline: 0;
+}
+
+.msg-area__input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.19;
+  color: rgba(23, 25, 50, 0.5);
+}
+
+.smile-btn {
+  background-image: url(../../images/smile.svg);
+  margin-left: auto;
+}
+
+.picture-btn {
+  background-image: url(../../images/picture.svg);
+  width: 24px;
+  height: 19px;
+}
+
+.mic-btn {
+  background-image: url(../../images/microphone.svg);
+  width: 10px;
+  height: 19px;
+}
+
+.video-btn {
+  background-image: url(../../images/video.svg);
+  width: 26px;
+  height: 19px;
 }

@@ -1,0 +1,18 @@
+.text-button {
+  background-color: transparent;
+  border: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.19;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.text-button:focus,
+.text-button:hover {
+  background-color: #4353ff;
+  color: white;
+  outline: none;
+}

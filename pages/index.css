@@ -10,6 +10,9 @@
 @import url(../blocks/app/app.css);
 
 @import url(../blocks/icon/icon.css);
+@import url(../blocks/icon/_color/icon_color.css);
+
+@import url(../blocks/text-button/text-button.css);
 
 @import url(../blocks/icon-button/icon-button.css);
 @import url(../blocks/search-btn/search-btn.css);
@@ -32,3 +35,7 @@
 
 @import url(../blocks/chat-card/chat-card.css);
 @import url(../blocks/chat-card/__user-avatar/chat-card__user-avatar.css);
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/chat/chat.css);
