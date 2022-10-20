@@ -82,8 +82,3 @@
   place-self: center end;
   margin-right: 32px;
 }
-
-.chat-card__facetime-btn {
-  grid-area: icons;
-  place-self: end end;
-}

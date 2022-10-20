@@ -1,4 +1,8 @@
 .settings-btn {
-  background-image: url(../../images/settings.svg);
+  width: 20px;
+  height: 20px;
+}
+
+.side-bar__settings-btn {
   margin-left: 15px;
 }

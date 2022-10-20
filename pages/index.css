@@ -10,7 +10,7 @@
 @import url(../blocks/app/app.css);
 
 @import url(../blocks/icon/icon.css);
-@import url(../blocks/icon/_color/icon_color.css);
+@import url(../blocks/icon/_theme/icon_theme_white.css);
 
 @import url(../blocks/text-button/text-button.css);
 
@@ -20,6 +20,11 @@
 @import url(../blocks/menu-btn/menu-btn.css);
 @import url(../blocks/new-msg-btn/new-msg-btn.css);
 @import url(../blocks/phone-btn/phone-btn.css);
+@import url(../blocks/facetime-btn/facetime-btn.css);
+@import url(../blocks/smile-btn/smile-btn.css);
+@import url(../blocks/picture-btn/picture-btn.css);
+@import url(../blocks/mic-btn/mic-btn.css);
+@import url(../blocks/video-btn/video-btn.css);
 
 @import url(../blocks/user-avatar/user-avatar.css);
 

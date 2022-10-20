@@ -1,0 +1,14 @@
+.video-btn {
+  width: 26px;
+  height: 19px;
+}
+
+.video-btn_size_sm {
+  width: 15px;
+  height: 15px;
+}
+
+.chat-card__video-btn {
+  grid-area: icons;
+  place-self: center end;
+}
